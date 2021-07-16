@@ -5,84 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="public/syle.css">
-    <link rel="stylesheet" href="public/change.css">
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="public/animation.css">
 </head>
 <body class="bg-gray_theme-light  >">
-   <!--  <div class="flex flex-col-reverse lg:flex-row flex-1 font-rubick bg-primary  h-screen  lg:p-6" >
-        <div class="flex flex-row  fixed w-full pl-4 pr-4  justify-around  bg-primary lg:w-2/12">
+    <div class="flex flex-col-reverse lg:flex-row  font-rubick bg-gray_theme-light  h-screen  lg:p-6" >
+        <div class="flex flex-row  fixed flex-1 w-full pl-4 pr-4    bg-primary lg:w-2/12" id="accordian">
             <i class="fi-rr-align-left hidden"></i>
-            <ul class="flex flex-row justify-between gap-x-2  w-full text-white  ">
-                <li class="list__nav">
-                    <a class="nav__link flex items-center gap-x-1 hover:bg-third mb-2 pt-3 px-2  " href="#">
-                        <i class="fi-rr-envelope text-lg -mb-1 "></i>
-                        <span>Mailbox</span>
+            <ul class="flex flex-row justify-evenly  gap-x-2  w-full text-white pb-2
+                show-dropdown main-navbar">
+                <div class="selector-active" style="top: 0px; left: 73px; height: 70px; width: 50px;">
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                 </div>
+                <li class=" active ">
+                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md mb-4" href="#">
+                        <!-- <i class="fi-rr-envelope text-lg m-0 z-0 "></i> -->
+                      a
+                        <span class="hidden" >Mailbox</span>
                     </a>
                 </li>
-                <li class="list__nav">
-                    <a class="nav__link flex items-center gap-x-1 hover:bg-third mb-2 pt-3 px-2  " href="#">
-                        <i class="fi-rr-pencil text-lg -mb-1 "></i>   
-                        <span>New</span>                     
+                <li class="  ">
+                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md text-red-800 mb-4" href="#">
+                        a
+                        <!-- <i class="fi-rr-pencil text-lg m-0 z-0"></i>   --> 
+                        <span class="hidden" >New</span>                     
                     </a>
                 </li>
-                <li class="list__nav">
-                    <a class="nav__link flex items-center gap-x-1 hover:bg-third mb-2 pt-3 px-2  " href="#">
-                        <i class="fi-rr-file text-lg -mb-1 "></i>
-                        <span>Files</span>
+                <li class="  ">
+                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md text-red-800 mb-4" href="#">
+                        <!-- <i class="fi-rr-file text-lg m-0 text-red-900 z-0 "></i> -->
+                        a
+                        <span class="hidden" >Files</span>
                     </a>
                 </li>
-                <li class="list__nav">
-                    <a class="nav__link flex items-center gap-x-1 hover:bg-third mb-2 pt-3 px-2  " href="#">
-                        <i class="fi-rr-signal-alt-2 text-lg -mb-1 "></i>
-                        <span>Statics</span>
+                <li class=" ">
+                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md text-red-800 mb-4" href="#">
+                        <!-- <i class="fi-rr-signal-alt-2 text-lg m-0 z-0"></i> -->
+                        a
+                        <span class="hidden " >Statics</span>
                     </a>
                 </li>
             </ul>
         </div>
         <div class="flex flex-col bg-gray_theme-light pb-24 lg:w-10/12 lg:border lg:rounded-3xl lg:p-4">
             <div class="flex">
-                content1
+                content1                               
             </div>
-            <div class="flex">
+            <div class="flex text-blue-600">
                 content2
             </div>
         </div>
-    </div> -->
-    <div id="accordian">
-        <ul class="show-dropdown main-navbar">
-           <div class="selector-active">
-              <div class="top"></div>
-              <div class="bottom"></div>
-           </div>
-           <li>
-              <a href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-           </li>
-           <li class="active">
-              <a href="#"><i class="far fa-address-book"></i>Address Book</a>
-           </li>
-           <li >
-              <a href="#"><i class="far fa-clone"></i>Components</a>
-           </li>
-           <li>
-              <a href="#"><i class="far fa-calendar-alt"></i>Calendar</a>
-           </li>
-           <li>
-              <a href="#"><i class="far fa-chart-bar"></i>Charts</a>
-           </li>
-           <li>
-              <a href="#"><i class="far fa-copy"></i>Documents</a>
-           </li>
-           <li>
-              <a href="#"><i class="far fa-bookmark"></i>Bookmarks</a>
-           </li>
-           <li>
-              <a href="#"><i class="far fa-envelope"></i>Mail</a>
-           </li>
-           <li>
-              <a href="#"><i class="far fa-heart"></i>Favorite</a>
-           </li>
-        </ul>
-     </div>
-    <script src="public/script.js"></script>p
+    </div>
+    <script src="public/animation.js"></script>
 </body>
 </html>

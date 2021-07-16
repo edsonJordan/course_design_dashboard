@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-
-
 :root {
   --color-primary: #1316A7;
   --color-secondary: #EF6335;
@@ -83,6 +81,15 @@ body {
 		'Segoe UI Emoji';
 }
 
+/*
+Grouping content
+================
+*/
+
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+*/
 
 hr {
   height: 0;
@@ -21738,8 +21745,16 @@ video {
   background-origin: content-box;
 }
 
-.fill-current{
-  fill: currentColor;
+.fill-primary{
+  fill: var(--color-primary);
+}
+
+.fill-secundary{
+  fill: var(--color-secondary);
+}
+
+.fill-third{
+  fill: var(--color-tertiary);
 }
 
 .stroke-current{
@@ -33330,7 +33345,39 @@ video {
   content: none;
 }
 
-/* @tailwind components; */
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
 
 @media (min-width: 640px){
   .sm\:sr-only{
@@ -54420,8 +54467,16 @@ video {
     background-origin: content-box;
   }
 
-  .sm\:fill-current{
-    fill: currentColor;
+  .sm\:fill-primary{
+    fill: var(--color-primary);
+  }
+
+  .sm\:fill-secundary{
+    fill: var(--color-secondary);
+  }
+
+  .sm\:fill-third{
+    fill: var(--color-tertiary);
   }
 
   .sm\:stroke-current{
@@ -65569,6 +65624,40 @@ video {
 
   .sm\:ease-in-out{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sm\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .sm\:container{
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .sm\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px){
+    .sm\:container{
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .sm\:container{
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px){
+    .sm\:container{
+      max-width: 1536px;
+    }
   }
 }
 
@@ -86660,8 +86749,16 @@ video {
     background-origin: content-box;
   }
 
-  .md\:fill-current{
-    fill: currentColor;
+  .md\:fill-primary{
+    fill: var(--color-primary);
+  }
+
+  .md\:fill-secundary{
+    fill: var(--color-secondary);
+  }
+
+  .md\:fill-third{
+    fill: var(--color-tertiary);
   }
 
   .md\:stroke-current{
@@ -97809,6 +97906,40 @@ video {
 
   .md\:ease-in-out{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .md\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .md\:container{
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .md\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px){
+    .md\:container{
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .md\:container{
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px){
+    .md\:container{
+      max-width: 1536px;
+    }
   }
 }
 
@@ -118900,8 +119031,16 @@ video {
     background-origin: content-box;
   }
 
-  .lg\:fill-current{
-    fill: currentColor;
+  .lg\:fill-primary{
+    fill: var(--color-primary);
+  }
+
+  .lg\:fill-secundary{
+    fill: var(--color-secondary);
+  }
+
+  .lg\:fill-third{
+    fill: var(--color-tertiary);
   }
 
   .lg\:stroke-current{
@@ -130049,6 +130188,40 @@ video {
 
   .lg\:ease-in-out{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .lg\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .lg\:container{
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .lg\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px){
+    .lg\:container{
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .lg\:container{
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px){
+    .lg\:container{
+      max-width: 1536px;
+    }
   }
 }
 
@@ -151140,8 +151313,16 @@ video {
     background-origin: content-box;
   }
 
-  .xl\:fill-current{
-    fill: currentColor;
+  .xl\:fill-primary{
+    fill: var(--color-primary);
+  }
+
+  .xl\:fill-secundary{
+    fill: var(--color-secondary);
+  }
+
+  .xl\:fill-third{
+    fill: var(--color-tertiary);
   }
 
   .xl\:stroke-current{
@@ -162289,6 +162470,40 @@ video {
 
   .xl\:ease-in-out{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .xl\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .xl\:container{
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .xl\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px){
+    .xl\:container{
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .xl\:container{
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px){
+    .xl\:container{
+      max-width: 1536px;
+    }
   }
 }
 
@@ -183380,8 +183595,16 @@ video {
     background-origin: content-box;
   }
 
-  .\32xl\:fill-current{
-    fill: currentColor;
+  .\32xl\:fill-primary{
+    fill: var(--color-primary);
+  }
+
+  .\32xl\:fill-secundary{
+    fill: var(--color-secondary);
+  }
+
+  .\32xl\:fill-third{
+    fill: var(--color-tertiary);
   }
 
   .\32xl\:stroke-current{
@@ -194529,6 +194752,40 @@ video {
 
   .\32xl\:ease-in-out{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .\32xl\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .\32xl\:container{
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .\32xl\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px){
+    .\32xl\:container{
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .\32xl\:container{
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px){
+    .\32xl\:container{
+      max-width: 1536px;
+    }
   }
 }
 
