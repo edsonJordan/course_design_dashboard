@@ -100,9 +100,9 @@ i {
    background-repeat: no-repeat;
  }
 
-.mail-box:hover svg{
+/* .mail-box:hover svg{
    fill: var(--color-secondary);
-}
+} */
 .mail-box:active svg{
    fill: var(--color-secondary);
 }
