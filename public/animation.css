@@ -103,6 +103,9 @@ i {
 .mail-box:hover svg{
    fill: var(--color-secondary);
 }
+.mail-box:active svg{
+   fill: var(--color-secondary);
+}
 #envelope{
    fill: green;
 }
