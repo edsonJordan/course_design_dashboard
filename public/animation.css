@@ -88,7 +88,7 @@ i {
     background-color: #1316A7;
  }
  .selector-active .top:before {
-    left: -22.7px;
+    left: -24.9px;
     top: 4px;
  }
  .selector-active .bottom:before {
@@ -103,8 +103,12 @@ i {
 /* .mail-box:hover svg{
    fill: var(--color-secondary);
 } */
-.mail-box:active svg{
+#accordian > ul > li.active > a > svg {
    fill: var(--color-secondary);
+  /*  transition: all 0.7s; */
+}
+.mail-box:active svg{
+   /* fill: var(--color-secondary); */
 }
 #envelope{
    fill: green;
