@@ -45,8 +45,7 @@ i {
     transform: rotate(90deg);
  }
  #accordian > ul > li.active > a {
-    color: red;
-    background-color: transparent;
+    
     transition: all 0.7s;
  }
 
@@ -83,17 +82,27 @@ i {
  .selector-active .bottom:before {
     content: "";
     position: absolute;
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 37px;
     border-radius: 50%;
     background-color: #1316A7;
  }
  .selector-active .top:before {
-    left: -23px;
+    left: -22.7px;
     top: 4px;
  }
  .selector-active .bottom:before {
-       top: 5px;
-    left: 9px;
+       top: 4.4px;
+    left: 1.1px;
  }
+ .link__nav{
  
+   background-repeat: no-repeat;
+ }
+
+.mail-box:hover svg{
+   fill: var(--color-secondary);
+}
+#envelope{
+   fill: green;
+}

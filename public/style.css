@@ -18037,40 +18037,36 @@ video {
   --tw-bg-opacity: 1;
 }
 
-.bg-none{
-  background-image: none;
+.bg-envelope{
+  background-image: url('/public/icons/fi-rr-envelope.svg');
 }
 
-.bg-gradient-to-t{
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+.bg-file{
+  background-image: url('/public/icons/fi-rr-file.svg');
 }
 
-.bg-gradient-to-tr{
-  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+.bg-pencil{
+  background-image: url('/public/icons/fi-rr-pencil.svg');
 }
 
-.bg-gradient-to-r{
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+.bg-signal{
+  background-image: url('/public/icons/fi-rr-signal-alt-2.svg');
 }
 
-.bg-gradient-to-br{
-  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+.bg-envelope__active{
+  background-image: url('/public/icons/active/fi-rr-envelope.svg');
 }
 
-.bg-gradient-to-b{
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+.bg-file__active{
+  background-image: url('/public/icons/active/fi-rr-file.svg');
 }
 
-.bg-gradient-to-bl{
-  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+.bg-pencil__active{
+  background-image: url('/public/icons/active/fi-rr-pencil.svg');
 }
 
-.bg-gradient-to-l{
-  background-image: linear-gradient(to left, var(--tw-gradient-stops));
-}
-
-.bg-gradient-to-tl{
-  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+.bg-signal__active{
+  background-image: url('/public/icons/active/fi-rr-signal-alt-2.svg');
 }
 
 .from-transparent{
@@ -21743,6 +21739,10 @@ video {
 
 .bg-origin-content{
   background-origin: content-box;
+}
+
+.fill-white{
+  fill: #fff;
 }
 
 .fill-primary{
@@ -50759,40 +50759,36 @@ video {
     --tw-bg-opacity: 1;
   }
 
-  .sm\:bg-none{
-    background-image: none;
+  .sm\:bg-envelope{
+    background-image: url('/public/icons/fi-rr-envelope.svg');
   }
 
-  .sm\:bg-gradient-to-t{
-    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  .sm\:bg-file{
+    background-image: url('/public/icons/fi-rr-file.svg');
   }
 
-  .sm\:bg-gradient-to-tr{
-    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  .sm\:bg-pencil{
+    background-image: url('/public/icons/fi-rr-pencil.svg');
   }
 
-  .sm\:bg-gradient-to-r{
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  .sm\:bg-signal{
+    background-image: url('/public/icons/fi-rr-signal-alt-2.svg');
   }
 
-  .sm\:bg-gradient-to-br{
-    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  .sm\:bg-envelope__active{
+    background-image: url('/public/icons/active/fi-rr-envelope.svg');
   }
 
-  .sm\:bg-gradient-to-b{
-    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  .sm\:bg-file__active{
+    background-image: url('/public/icons/active/fi-rr-file.svg');
   }
 
-  .sm\:bg-gradient-to-bl{
-    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  .sm\:bg-pencil__active{
+    background-image: url('/public/icons/active/fi-rr-pencil.svg');
   }
 
-  .sm\:bg-gradient-to-l{
-    background-image: linear-gradient(to left, var(--tw-gradient-stops));
-  }
-
-  .sm\:bg-gradient-to-tl{
-    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  .sm\:bg-signal__active{
+    background-image: url('/public/icons/active/fi-rr-signal-alt-2.svg');
   }
 
   .sm\:from-transparent{
@@ -54465,6 +54461,10 @@ video {
 
   .sm\:bg-origin-content{
     background-origin: content-box;
+  }
+
+  .sm\:fill-white{
+    fill: #fff;
   }
 
   .sm\:fill-primary{
@@ -83041,40 +83041,36 @@ video {
     --tw-bg-opacity: 1;
   }
 
-  .md\:bg-none{
-    background-image: none;
+  .md\:bg-envelope{
+    background-image: url('/public/icons/fi-rr-envelope.svg');
   }
 
-  .md\:bg-gradient-to-t{
-    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  .md\:bg-file{
+    background-image: url('/public/icons/fi-rr-file.svg');
   }
 
-  .md\:bg-gradient-to-tr{
-    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  .md\:bg-pencil{
+    background-image: url('/public/icons/fi-rr-pencil.svg');
   }
 
-  .md\:bg-gradient-to-r{
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  .md\:bg-signal{
+    background-image: url('/public/icons/fi-rr-signal-alt-2.svg');
   }
 
-  .md\:bg-gradient-to-br{
-    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  .md\:bg-envelope__active{
+    background-image: url('/public/icons/active/fi-rr-envelope.svg');
   }
 
-  .md\:bg-gradient-to-b{
-    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  .md\:bg-file__active{
+    background-image: url('/public/icons/active/fi-rr-file.svg');
   }
 
-  .md\:bg-gradient-to-bl{
-    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  .md\:bg-pencil__active{
+    background-image: url('/public/icons/active/fi-rr-pencil.svg');
   }
 
-  .md\:bg-gradient-to-l{
-    background-image: linear-gradient(to left, var(--tw-gradient-stops));
-  }
-
-  .md\:bg-gradient-to-tl{
-    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  .md\:bg-signal__active{
+    background-image: url('/public/icons/active/fi-rr-signal-alt-2.svg');
   }
 
   .md\:from-transparent{
@@ -86747,6 +86743,10 @@ video {
 
   .md\:bg-origin-content{
     background-origin: content-box;
+  }
+
+  .md\:fill-white{
+    fill: #fff;
   }
 
   .md\:fill-primary{
@@ -115323,40 +115323,36 @@ video {
     --tw-bg-opacity: 1;
   }
 
-  .lg\:bg-none{
-    background-image: none;
+  .lg\:bg-envelope{
+    background-image: url('/public/icons/fi-rr-envelope.svg');
   }
 
-  .lg\:bg-gradient-to-t{
-    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  .lg\:bg-file{
+    background-image: url('/public/icons/fi-rr-file.svg');
   }
 
-  .lg\:bg-gradient-to-tr{
-    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  .lg\:bg-pencil{
+    background-image: url('/public/icons/fi-rr-pencil.svg');
   }
 
-  .lg\:bg-gradient-to-r{
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  .lg\:bg-signal{
+    background-image: url('/public/icons/fi-rr-signal-alt-2.svg');
   }
 
-  .lg\:bg-gradient-to-br{
-    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  .lg\:bg-envelope__active{
+    background-image: url('/public/icons/active/fi-rr-envelope.svg');
   }
 
-  .lg\:bg-gradient-to-b{
-    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  .lg\:bg-file__active{
+    background-image: url('/public/icons/active/fi-rr-file.svg');
   }
 
-  .lg\:bg-gradient-to-bl{
-    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  .lg\:bg-pencil__active{
+    background-image: url('/public/icons/active/fi-rr-pencil.svg');
   }
 
-  .lg\:bg-gradient-to-l{
-    background-image: linear-gradient(to left, var(--tw-gradient-stops));
-  }
-
-  .lg\:bg-gradient-to-tl{
-    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  .lg\:bg-signal__active{
+    background-image: url('/public/icons/active/fi-rr-signal-alt-2.svg');
   }
 
   .lg\:from-transparent{
@@ -119029,6 +119025,10 @@ video {
 
   .lg\:bg-origin-content{
     background-origin: content-box;
+  }
+
+  .lg\:fill-white{
+    fill: #fff;
   }
 
   .lg\:fill-primary{
@@ -147605,40 +147605,36 @@ video {
     --tw-bg-opacity: 1;
   }
 
-  .xl\:bg-none{
-    background-image: none;
+  .xl\:bg-envelope{
+    background-image: url('/public/icons/fi-rr-envelope.svg');
   }
 
-  .xl\:bg-gradient-to-t{
-    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  .xl\:bg-file{
+    background-image: url('/public/icons/fi-rr-file.svg');
   }
 
-  .xl\:bg-gradient-to-tr{
-    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  .xl\:bg-pencil{
+    background-image: url('/public/icons/fi-rr-pencil.svg');
   }
 
-  .xl\:bg-gradient-to-r{
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  .xl\:bg-signal{
+    background-image: url('/public/icons/fi-rr-signal-alt-2.svg');
   }
 
-  .xl\:bg-gradient-to-br{
-    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  .xl\:bg-envelope__active{
+    background-image: url('/public/icons/active/fi-rr-envelope.svg');
   }
 
-  .xl\:bg-gradient-to-b{
-    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  .xl\:bg-file__active{
+    background-image: url('/public/icons/active/fi-rr-file.svg');
   }
 
-  .xl\:bg-gradient-to-bl{
-    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  .xl\:bg-pencil__active{
+    background-image: url('/public/icons/active/fi-rr-pencil.svg');
   }
 
-  .xl\:bg-gradient-to-l{
-    background-image: linear-gradient(to left, var(--tw-gradient-stops));
-  }
-
-  .xl\:bg-gradient-to-tl{
-    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  .xl\:bg-signal__active{
+    background-image: url('/public/icons/active/fi-rr-signal-alt-2.svg');
   }
 
   .xl\:from-transparent{
@@ -151311,6 +151307,10 @@ video {
 
   .xl\:bg-origin-content{
     background-origin: content-box;
+  }
+
+  .xl\:fill-white{
+    fill: #fff;
   }
 
   .xl\:fill-primary{
@@ -179887,40 +179887,36 @@ video {
     --tw-bg-opacity: 1;
   }
 
-  .\32xl\:bg-none{
-    background-image: none;
+  .\32xl\:bg-envelope{
+    background-image: url('/public/icons/fi-rr-envelope.svg');
   }
 
-  .\32xl\:bg-gradient-to-t{
-    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  .\32xl\:bg-file{
+    background-image: url('/public/icons/fi-rr-file.svg');
   }
 
-  .\32xl\:bg-gradient-to-tr{
-    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  .\32xl\:bg-pencil{
+    background-image: url('/public/icons/fi-rr-pencil.svg');
   }
 
-  .\32xl\:bg-gradient-to-r{
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  .\32xl\:bg-signal{
+    background-image: url('/public/icons/fi-rr-signal-alt-2.svg');
   }
 
-  .\32xl\:bg-gradient-to-br{
-    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  .\32xl\:bg-envelope__active{
+    background-image: url('/public/icons/active/fi-rr-envelope.svg');
   }
 
-  .\32xl\:bg-gradient-to-b{
-    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  .\32xl\:bg-file__active{
+    background-image: url('/public/icons/active/fi-rr-file.svg');
   }
 
-  .\32xl\:bg-gradient-to-bl{
-    background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+  .\32xl\:bg-pencil__active{
+    background-image: url('/public/icons/active/fi-rr-pencil.svg');
   }
 
-  .\32xl\:bg-gradient-to-l{
-    background-image: linear-gradient(to left, var(--tw-gradient-stops));
-  }
-
-  .\32xl\:bg-gradient-to-tl{
-    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  .\32xl\:bg-signal__active{
+    background-image: url('/public/icons/active/fi-rr-signal-alt-2.svg');
   }
 
   .\32xl\:from-transparent{
@@ -183593,6 +183589,10 @@ video {
 
   .\32xl\:bg-origin-content{
     background-origin: content-box;
+  }
+
+  .\32xl\:fill-white{
+    fill: #fff;
   }
 
   .\32xl\:fill-primary{
