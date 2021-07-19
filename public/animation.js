@@ -2,9 +2,6 @@ let data = document.getElementById('accordian');
 let picks = data.getElementsByClassName('active');
 let activeWidthVerticalHeight = picks[0].offsetHeight;
 let activeWidthVerticalWidth = picks[0].offsetWidth;
-let coords = { top: picks[0].offsetTop, left: picks[0].offsetLeft };
-let itemPosVerticalTop = coords;
-let itemPosVerticalLeft = coords;
 document.querySelector('.selector-active').style.top = picks[0].offsetTop + "px";
 document.querySelector('.selector-active').style.left = picks[0].offsetLeft + "px";
 document.querySelector('.selector-active').style.height = activeWidthVerticalHeight + "px";
@@ -39,4 +36,12 @@ document.getElementById('accordian')?.addEventListener('click', (e)=>{
             setCoord(picks[0].offsetTop, picks[0].offsetLeft, activeWidthVerticalHeight, activeWidthVerticalWidth); 
         break;             
       }
+});
+document.querySelector('.form-input').addEventListener('focus', (e)=>{
+ console.log();
+ e.target.parentNode.style.backgroundColor= "white";
+});
+document.querySelector('.form-input').addEventListener('focusout', (e)=>{
+  console.log();
+  e.target.parentNode.style.backgroundColor= "transparent";
 });

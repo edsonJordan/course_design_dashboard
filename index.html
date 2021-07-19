@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="public/style.css">
     <link rel="stylesheet" href="public/animation.css">
 </head>
+<style>
+    
+    
+</style>
 <body class="bg-gray_theme-light  >">
-    <div class="flex flex-col-reverse lg:flex-row  font-rubick bg-gray_theme-light  h-screen  lg:p-6" >
-        <div class="flex flex-row  fixed flex-1 w-full pl-4 pr-4    bg-primary lg:w-2/12" id="accordian">
+    <div class="flex flex-col-reverse  lg:flex-row  font-rubick bg-gray_theme-light    lg:p-6" >
+        <div class="flex flex-row z-10   fixed bottom-0 flex-1 w-full pl-4 pr-4    bg-primary lg:w-2/12" id="accordian">
             <i class="fi-rr-align-left hidden"></i>
-            <ul class="flex flex-row justify-evenly  gap-x-2  w-full text-white pb-2
+            <ul class="flex flex-row justify-evenly  gap-x-2  w-full text-white pb-2 
                 show-dropdown main-navbar">
-                <div class="selector-active" style="top: 0px; left: 73px; height: 70px; width: 50px;">
+                <div class="selector-active hidden" style="top: 0px; left: 73px; height: 70px; width: 50px;">
                     <div class="top"></div>
                     <div class="bottom"></div>
                  </div>
                 <li class=" active ">
-                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md mb-4    bg-center bg-no-repeat  w-2 h-2 mt-6 mail-box "   href="#">
+                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md mb-4    bg-center bg-no-repeat  w-2 h-2 mt-6 mail-box " 
+                       href="#title1">
                         <span class="hidden" >Mailbox</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 py-1 relative right-5 bottom-5 fill-white " viewBox="0 0 24 24"  >
                             <path d="M19 1H5a5.006 5.006 0 00-5 5v12a5.006 5.006 0 005 5h14a5.006 5.006 0 005-5V6a5.006 5.006 0 00-5-5zM5 3h14a3 3 0 012.78 1.887l-7.658 7.659a3.007 3.007 0 01-4.244 0L2.22 4.887A3 3 0 015 3zm14 18H5a3 3 0 01-3-3V7.5l6.464 6.46a5.007 5.007 0 007.072 0L22 7.5V18a3 3 0 01-3 3z"/>
@@ -27,17 +32,19 @@
                     </a>
                 </li>
                 <li class="  ">
-                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md  mb-4  bg-center bg-no-repeat w-2 h-2 mt-6  mail-box"  href="#">
+                    <a  class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md  mb-4  bg-center bg-no-repeat w-2 h-2 mt-6  mail-box" 
+                    href="#title2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 py-1 relative right-5 bottom-5 fill-white hover:fill-secundary" viewBox="0 0 24 24"  >
-                            <path d="M19 1H5a5.006 5.006 0 00-5 5v12a5.006 5.006 0 005 5h14a5.006 5.006 0 005-5V6a5.006 5.006 0 00-5-5zM5 3h14a3 3 0 012.78 1.887l-7.658 7.659a3.007 3.007 0 01-4.244 0L2.22 4.887A3 3 0 015 3zm14 18H5a3 3 0 01-3-3V7.5l6.464 6.46a5.007 5.007 0 007.072 0L22 7.5V18a3 3 0 01-3 3z"/>
+                            <path d="M22.853 1.148a3.626 3.626 0 00-5.124 0L1.465 17.412A4.968 4.968 0 000 20.947V23a1 1 0 001 1h2.053a4.966 4.966 0 003.535-1.464L22.853 6.271a3.626 3.626 0 000-5.123zM5.174 21.122A3.022 3.022 0 013.053 22H2v-1.053a2.98 2.98 0 01.879-2.121L15.222 6.483l2.3 2.3zM21.438 4.857l-2.506 2.507-2.3-2.295 2.507-2.507a1.623 1.623 0 112.295 2.3z"/>
                         </svg>
                         <span class="hidden" >New</span>                     
                     </a>
                 </li>
                 <li class="  ">
-                    <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md  mb-4  bg-center bg-no-repeat  w-2 h-2 mt-6  mail-box"  href="#">
+                    <a  class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md  mb-4  bg-center bg-no-repeat  w-2 h-2 mt-6  mail-box"  
+                    href="#title3">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 py-1 relative right-5 bottom-5 fill-white hover:fill-secundary" viewBox="0 0 24 24"  >
-                            <path d="M19 1H5a5.006 5.006 0 00-5 5v12a5.006 5.006 0 005 5h14a5.006 5.006 0 005-5V6a5.006 5.006 0 00-5-5zM5 3h14a3 3 0 012.78 1.887l-7.658 7.659a3.007 3.007 0 01-4.244 0L2.22 4.887A3 3 0 015 3zm14 18H5a3 3 0 01-3-3V7.5l6.464 6.46a5.007 5.007 0 007.072 0L22 7.5V18a3 3 0 01-3 3z"/>
+                            <path d="M19.949 5.536L16.465 2.05A6.958 6.958 0 0011.515 0H7a5.006 5.006 0 00-5 5v14a5.006 5.006 0 005 5h10a5.006 5.006 0 005-5v-8.515a6.951 6.951 0 00-2.051-4.949zM18.535 6.95A4.983 4.983 0 0119.316 8H15a1 1 0 01-1-1V2.684a5.01 5.01 0 011.051.78zM20 19a3 3 0 01-3 3H7a3 3 0 01-3-3V5a3 3 0 013-3h4.515c.164 0 .323.032.485.047V7a3 3 0 003 3h4.953c.015.162.047.32.047.485z"/>
                         </svg>                        
                         <span class="hidden" >Files</span>
                     </a>
@@ -45,21 +52,150 @@
                 <li class=" ">
                     <a class="block items-center gap-x-1  p-5 pt-10 px-2 rounded-md  mb-4  hover:bg-envelope_active bg-center bg-no-repeat  w-2 h-2 mt-6  mail-box" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 py-1 relative right-5 bottom-5 fill-white hover:fill-secundary" viewBox="0 0 24 24"  >
-                            <path d="M19 1H5a5.006 5.006 0 00-5 5v12a5.006 5.006 0 005 5h14a5.006 5.006 0 005-5V6a5.006 5.006 0 00-5-5zM5 3h14a3 3 0 012.78 1.887l-7.658 7.659a3.007 3.007 0 01-4.244 0L2.22 4.887A3 3 0 015 3zm14 18H5a3 3 0 01-3-3V7.5l6.464 6.46a5.007 5.007 0 007.072 0L22 7.5V18a3 3 0 01-3 3z"/>
+                            <path d="M12 6a3 3 0 00-3 3v12a3 3 0 006 0V9a3 3 0 00-3-3zm9-6a3 3 0 00-3 3v18a3 3 0 006 0V3a3 3 0 00-3-3zM3 12a3 3 0 00-3 3v6a3 3 0 006 0v-6a3 3 0 00-3-3z"/>
                         </svg>
                         <span class="hidden " >Statics</span>
                     </a>
                 </li>
             </ul>
         </div>
-        <div class="flex flex-col bg-gray_theme-light pb-24 lg:w-10/12 lg:border lg:rounded-3xl lg:p-4">
-            <div class="flex" >
-                      <a href="" class="prueba">
-                          hola
-                      </a>               
+        <div class="flex flex-col gap-y-4 bg-gray_theme-light mb-16 p-5 lg:w-10/12 lg:border lg:rounded-3xl lg:p-4">
+            <div class="flex flex-col gap-y-6 flex-1 " >
+                    <div class=" flex flex-1 justify-between ">
+                        <div class="flex flex-col text-left">
+                            <h1 class="py-3 text-bedroom text-4xl font-medium">Chats</h1>
+                            <select class=" bg-transparent form-select border-transparent focus:border-1 py-3 font-light text-base focus:border-fifth focus:text-fifth focus:ring-0 text-bedroom" name="" id="">
+                                <option  class="form-control option-form" value="">Recent Messages</option>
+                                <option  class="form-control option-form" value="">Más recientes</option>
+                                <option  class="form-control option-form" value="">Más Antiguos</option>
+                            </select>
+                        </div>                        
+                        <button class=" flex text-white bg-primary px-4 py-1 rounded-2xl h-14 justify-center text-sm items-center">
+                            <i class="fi-rr-plus-small mt-1 py-2 ml-1 text-xl  leading-min-line"></i> 
+                            Create new chat
+                        </button>
+                    </div>
+                    <div  id="title1" class="flex flex-1 justify-between flex-col gap-y-4 ">
+                        <div class="">
+                            <form class="flex flex-row px-2 py-1 rounded-2xl bg-transparent  border-1 border-none w-full text-fifth">
+                                <i class="fi-rr-search py-2 ml-1 text-xl text-fifth leading-min-line"></i>
+                                <input type="text" class="form-input bg-transparent border-none bg-opacity-0 font-normal text-base w-full focus:ring-0  " placeholder="Search Message">                    
+                            </form>
+                        </div>
+                        <select class=" bg-transparent form-select border-transparent focus:border-1 py-3 font-light text-base focus:border-fifth focus:text-fifth focus:ring-0 text-bedroom" name="" id="">
+                                <option  class="form-control text-fifth" value="">Messages</option>
+                                <option  class="form-control text-fifth" value="">Más recientes</option>
+                                <option  class="form-control text-fifth" value="">Más Antiguos</option>
+                        </select>
+                    </div>
+                    <!-- Container card -->
+                    
+                    <div id="title2" class="flex flex-col gap-y-5 p-5 bg-white rounded-lg">                        
+                        <!-- Header Card -->
+                        <div class="rounded-4 p-2 flex flex-row justify-between">                   
+                            <div class="flex flex-row gap-x-2">
+                                <!-- image User -->
+                                <div class="bg-primary w-14 h-14 rounded-full avatar-user"></div>
+                                <!-- Data User -->
+                                <div class="flex flex-col justify-center">
+                                    <label for="" class="font-medium" >
+                                    Sarah Robin
+                                    </label>
+                                    <span class="text-primary text-xs font-normal"> writing ...</span>
+                                </div>
+                            </div>
+                                <!-- Ultimate write -->
+                            <span class="text-fifth font-normal">1 minute ago</span>
+                        </div>
+                        <!-- Body Card -->
+                        <div class=" flex flex-row">
+                            <span class="text-fifth text-sm">
+                                Hello Mikka, I hope you are well , What are you tomorrow?
+                                am organizing bbq in my parent's garden. Maybe you will come?
+                            </span>
+                            <div class="block bg-secondary  rounded-full text-white h-7 w-7 leading-4 px-2 py-2	">3</div>
+                        </div>
+                        <div class=" flex flex-row gap-x-4 text-xs">
+                            <button class="bg-primary p-3 rounded-lg text-white flex  justify-center" >
+                                <i class="fi-rr-file"></i>
+                                Files (x3)
+                            </button >
+                            <button class="bg-secondary p-3 rounded-lg text-white flex  justify-center" >
+                                <i class="fi-rr-picture"></i>
+                                Photo
+                            </button>
+                        </div>
+                    </div>                                  
+                    
+                    <div class="flex flex-col gap-y-5 p-5 bg-primary rounded-lg">
+                        <!-- Header Card -->
+                        <div class="rounded-4 p-2  flex flex-row justify-between text-white">                   
+                            <div class="flex flex-row gap-x-2">
+                                <!-- image User -->
+                                <div class="bg-third w-14 h-14 rounded-full avatar-user"></div>
+                                <!-- Data User -->
+                                <div class="flex flex-col justify-center">
+                                    <label for="">
+                                    Dominika Jankowsky
+                                    </label>
+                                    <span class="text-xs font-normal"> last online 5 hours ago</span>
+                                </div>
+                            </div>
+                                <!-- Ultimate write -->
+                            <span class="font-normal" >5 minute ago</span>
+                        </div>
+                        <!-- Body Card -->
+                        <div class=" flex flex-row">
+                            <span class="text-white text-sm">
+                                Hello Mikka, I hope you are well , What are you tomorrow?
+                                am organizing bbq in my parent's garden. Maybe you will come?
+                            </span>                           
+                        </div>                       
+                    </div>
+                    <!-- End cards -->
             </div>
-            <div class="flex text-blue-600" >
-                content2
+            <div class="flex flex-col bg-white rounded-3xl  p-4  gap-y-6" >
+                <div class="flex flex-row text-left flex-1 justify-between">
+                    <div class="">
+                        <h1 class="py-3 text-bedroom text-4xl font-medium">News</h1>
+                        <span class="text-fifth text-base" >All Your News </span>
+                    </div>
+                    <div class="flex flex-row justify-center gap-x-1">
+                        <a href="" class=" my-2">
+                            <i class="fi-rr-arrow-small-left text-3xl text-fifth border border-fifth  p-2 bg-gray_theme-light block h-12 leading-10 rounded-xl"></i>
+                    </a>
+                        <a href="" class=" my-2">
+                            <i class="fi-rr-arrow-small-right text-3xl text-white  p-2 bg-secondary block h-12 leading-10 rounded-xl"></i>
+                    </a>
+                    </div>                   
+                </div>
+                <!-- Card -->
+                <div id="" class="flex flex-col   bg-gray_theme-light rounded-2xl card-memory">                        
+                  <div class="p-14 text-center flex flex-col gap-y-10">
+                      <h1 class="text-gray_theme-dark text-3xl font-medium" >More Memory?</h1>
+                      <span class="text-fifth text-sm">
+                        You have only 23% of memory. Probaly you will be full
+                        next month. Try to expand your plan and get 15% off!
+                        </span>
+                  </div>
+                </div> 
+                <!-- En card -->
+                <div id="" class="flex flex-col   bg-gray_theme-light rounded-2xl card-check ">                        
+                    <div class="p-14 text-center flex flex-col gap-y-10 ">
+                        <h1 class="text-gray_theme-dark text-3xl font-medium" >Check new desing</h1>
+                        <span class="text-fifth text-sm">
+                          Do you wonder how dashboard can look like in 
+                          a dark mode? we prepared it for you!
+                          </span>
+                          <button class=" flex text-white bg-primary px-4 py-1 rounded-2xl h-14 justify-center text-sm items-center">
+                           
+                            Try new layout
+                            <i class="fi-rr-arrow-small-right mt-1 py-2 ml-1 text-xl  leading-min-line"></i> 
+                        </button>
+                    </div>
+                    
+                  </div> 
+
             </div>
         </div>
     </div>

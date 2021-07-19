@@ -58,7 +58,7 @@ i {
     left: 0px;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    background-color: #E0E3E9;
+    background-color: #F4F6F8;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
  }
@@ -67,7 +67,7 @@ i {
     position: absolute;
     width: 25px;
     height: 25px;
-    background-color: #E0E3E9;
+    background-color: #F4F6F8;
     right: 0;
  }
  .selector-active .top {
@@ -85,7 +85,7 @@ i {
     width: 37px;
     height: 37px;
     border-radius: 50%;
-    background-color: #1316A7;
+    background-color: var(--color-primary);
  }
  .selector-active .top:before {
     left: -24.9px;
@@ -104,7 +104,7 @@ i {
    fill: var(--color-secondary);
 } */
 #accordian > ul > li.active > a > svg {
-   fill: var(--color-secondary);
+   fill: var(--color-primary);
   /*  transition: all 0.7s; */
 }
 .mail-box:active svg{
@@ -113,3 +113,65 @@ i {
 #envelope{
    fill: green;
 }
+.avatar-user::before{
+   display: block;
+   width: 1.1rem;
+   height: 1.1rem;
+   border: 2px solid white;
+   background-color: var(--color-secondary);
+   border-radius: 100%;
+   content: "";
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color:    var(--color-fifth) !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    var(--color-fifth) !important;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    var(--color-fifth) !important;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    var(--color-fifth) !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:    var(--color-fifth) !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color:    var(--color-fifth) !important;
+}
+
+.card-memory::before{
+   content: "";
+   width: 5rem;
+   height: 5rem;
+   border-top-left-radius: 1rem;
+   border-bottom-right-radius: 3.5rem;
+   position: absolute;
+   background: var(--color-primary) url('icons/plus-icon.svg');
+   background-position-x: center;
+   background-position-y: center;
+   background-repeat: no-repeat;
+   background-size: 1.3rem;
+
+}
+.card-check::before{
+   content: "";
+   right: 4rem;
+   width: 2.3rem;
+   height:2.8rem;
+   margin-top: -.8rem;
+   background-color: var(--color-tertiary);
+   border-top-left-radius: .5rem;
+   border-top-right-radius: .5rem;
+   position: absolute;
+   background-position-x: center;
+   background-position-y: center;
+   background-repeat: no-repeat;
+   background-size: 1.3rem;
+   clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%, 50% 69%);
+}
+
